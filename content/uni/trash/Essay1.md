@@ -1,0 +1,6 @@
+#english 
+In the two texts provided, two differing opinions are presented, both of which I will discuss in this essay.
+
+The first author explains the reasoning behind the imperfection of tools and furniture in our homes. They agree with the quote that having only useful and beautiful things is a good idea; however, most people cannot achieve that ideal. An example is given of a glass bowl which they cannot throw away because it was received as a present. Personally, I believe that nothing in our lives should be perfect, so it is completely acceptable to have a few useless things here and there. It is simply important to find the golden middle between being a person living in a cluttered flat and an absolute perfectionist who owns nothing but a bottle of water and a chair in the entire living room.
+
+The second author discusses the meaning of "home" to individuals. They firmly believe that "your home is what you yourself make it." I partially agree with this statement, as there are too many variables that influence what makes a place a home. For some, home could be a temporary place they return to out of necessity (such as immigrants), while for others, it is the place where they were born. Therefore, I believe that everyone should be allowed to define what "home" means for themselves.

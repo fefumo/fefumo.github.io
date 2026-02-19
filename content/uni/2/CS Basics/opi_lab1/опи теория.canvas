@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"48de78d38a053ec3","x":240,"y":840,"width":400,"height":400,"type":"file","file":"Excalidraw/Многопроходная.excalidraw.md"},
+		{"id":"8cbfb9101a1b0f71","type":"file","file":"Excalidraw/V-chart.excalidraw.md","x":-360,"y":840,"width":400,"height":400},
+		{"id":"f0a4dea6c08d5378","type":"file","file":"uni/2/CS Basics/opi_lab1/подг к сдаче теории n3 по опи.md","x":-360,"y":280,"width":460,"height":400,"color":"1"},
+		{"id":"10eff4f1537cf841","type":"file","file":"uni/2/CS Basics/opi_lab1/UML structure.md","x":280,"y":280,"width":400,"height":400}
+	],
+	"edges":[]
+}

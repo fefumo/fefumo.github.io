@@ -1,0 +1,122 @@
+<svg width="720pt" height="365pt" viewBox="0.00 0.00 720.00 365.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 360.61)">
+<title>SMO2</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-360.61 716.4,-360.61 716.4,4 -4,4"/>
+<text xml:space="preserve" text-anchor="middle" x="356.2" y="-340.01" font-family="Times,serif" font-size="14.00">Система 2: П 2 (H_{2,6})  ЕН 1/2 | λ=0.8, μ=0.2 | p1=0.30 p2=0.70</text>
+<!-- source -->
+<g id="node1" class="node">
+<title>source</title>
+<polygon fill="none" stroke="black" points="185.51,-331.81 51.68,-331.81 51.68,-290.21 185.51,-290.21 185.51,-331.81"/>
+<text xml:space="preserve" text-anchor="middle" x="118.59" y="-315.21" font-family="Times,serif" font-size="14.00">Источник (Пуассон)</text>
+<text xml:space="preserve" text-anchor="middle" x="118.59" y="-298.41" font-family="Times,serif" font-size="14.00">λ=0.8</text>
+</g>
+<!-- router -->
+<g id="node2" class="node">
+<title>router</title>
+<polygon fill="none" stroke="black" points="118.59,-254.61 0,-213.01 118.59,-171.41 237.19,-213.01 118.59,-254.61"/>
+<text xml:space="preserve" text-anchor="middle" x="118.59" y="-217.21" font-family="Times,serif" font-size="14.00">Маршрутизатор</text>
+<text xml:space="preserve" text-anchor="middle" x="118.59" y="-200.41" font-family="Times,serif" font-size="14.00">p1=0.30 | p2=0.70</text>
+</g>
+<!-- source&#45;&gt;router -->
+<g id="edge1" class="edge">
+<title>source-&gt;router</title>
+<path fill="none" stroke="black" d="M118.59,-289.95C118.59,-282.95 118.59,-274.81 118.59,-266.49"/>
+<polygon fill="black" stroke="black" points="122.09,-266.65 118.59,-256.65 115.09,-266.65 122.09,-266.65"/>
+<text xml:space="preserve" text-anchor="middle" x="107.19" y="-268.21" font-family="Times,serif" font-size="14.00">λ=0.8</text>
+</g>
+<!-- q1 -->
+<g id="node5" class="node">
+<title>q1</title>
+<polygon fill="none" stroke="black" points="514.22,-268.01 389.2,-268.01 389.2,-232.01 514.22,-232.01 514.22,-268.01"/>
+<text xml:space="preserve" text-anchor="middle" x="451.71" y="-245.81" font-family="Times,serif" font-size="14.00">Q1 (FCFS, емк.=1)</text>
+</g>
+<!-- router&#45;&gt;q1 -->
+<g id="edge2" class="edge">
+<title>router-&gt;q1</title>
+<path fill="none" stroke="black" d="M209.64,-223.07C262.31,-228.96 327.97,-236.29 377.46,-241.82"/>
+<polygon fill="black" stroke="black" points="376.88,-245.28 387.21,-242.91 377.66,-238.32 376.88,-245.28"/>
+<text xml:space="preserve" text-anchor="middle" x="312.74" y="-244.28" font-family="Times,serif" font-size="14.00">p1=0.30</text>
+</g>
+<!-- q2 -->
+<g id="node7" class="node">
+<title>q2</title>
+<polygon fill="none" stroke="black" points="514.22,-160.01 389.2,-160.01 389.2,-124.01 514.22,-124.01 514.22,-160.01"/>
+<text xml:space="preserve" text-anchor="middle" x="451.71" y="-137.81" font-family="Times,serif" font-size="14.00">Q2 (FCFS, емк.=2)</text>
+</g>
+<!-- router&#45;&gt;q2 -->
+<g id="edge3" class="edge">
+<title>router-&gt;q2</title>
+<path fill="none" stroke="black" d="M193.49,-197.16C248.41,-185.39 322.98,-169.4 377.69,-157.66"/>
+<polygon fill="black" stroke="black" points="378.18,-161.14 387.23,-155.62 376.71,-154.29 378.18,-161.14"/>
+<text xml:space="preserve" text-anchor="middle" x="312.74" y="-188.07" font-family="Times,serif" font-size="14.00">p2=0.70</text>
+</g>
+<!-- loss -->
+<g id="node3" class="node">
+<title>loss</title>
+<ellipse fill="none" stroke="black" cx="451.71" cy="-44.01" rx="40.01" ry="40.01"/>
+<ellipse fill="none" stroke="black" cx="451.71" cy="-44.01" rx="44.01" ry="44.01"/>
+<text xml:space="preserve" text-anchor="middle" x="451.71" y="-39.81" font-family="Times,serif" font-size="14.00">Потери</text>
+</g>
+<!-- sink -->
+<g id="node4" class="node">
+<title>sink</title>
+<polygon fill="none" stroke="black" points="515.12,-214.01 388.3,-214.01 388.3,-178.01 515.12,-178.01 515.12,-214.01"/>
+<text xml:space="preserve" text-anchor="middle" x="451.71" y="-191.81" font-family="Times,serif" font-size="14.00">Выход (обслужено)</text>
+</g>
+<!-- q1&#45;&gt;loss -->
+<g id="edge8" class="edge">
+<title>q1-&gt;loss</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M388.96,-236.47C327.84,-220.05 248.21,-188.13 278.35,-137.61 304.03,-94.56 357.13,-70.12 397.83,-57.1"/>
+<polygon fill="black" stroke="black" points="398.69,-60.49 407.24,-54.24 396.65,-53.8 398.69,-60.49"/>
+<text xml:space="preserve" text-anchor="middle" x="312.74" y="-141.81" font-family="Times,serif" font-size="14.00">Q1 полна → потери</text>
+</g>
+<!-- s1 -->
+<g id="node6" class="node">
+<title>s1</title>
+<ellipse fill="none" stroke="black" cx="658.46" cy="-257.01" rx="52.62" ry="52.62"/>
+<text xml:space="preserve" text-anchor="middle" x="658.46" y="-252.81" font-family="Times,serif" font-size="14.00">Прибор P1</text>
+</g>
+<!-- q1&#45;&gt;s1 -->
+<g id="edge4" class="edge">
+<title>q1-&gt;s1</title>
+<path fill="none" stroke="black" d="M514.7,-252.13C539.91,-252.99 569.01,-253.98 594.34,-254.85"/>
+<polygon fill="black" stroke="black" points="594.05,-258.34 604.17,-255.19 594.29,-251.35 594.05,-258.34"/>
+<text xml:space="preserve" text-anchor="middle" x="559.82" y="-258.74" font-family="Times,serif" font-size="14.00">в сервис</text>
+</g>
+<!-- s1&#45;&gt;sink -->
+<g id="edge6" class="edge">
+<title>s1-&gt;sink</title>
+<path fill="none" stroke="black" d="M608.38,-239.34C601.08,-236.86 593.62,-234.41 586.52,-232.21 567.21,-226.23 546.17,-220.28 526.61,-214.98"/>
+<polygon fill="black" stroke="black" points="527.63,-211.63 517.07,-212.42 525.82,-218.39 527.63,-211.63"/>
+<text xml:space="preserve" text-anchor="middle" x="559.82" y="-236.41" font-family="Times,serif" font-size="14.00">μ=0.2</text>
+</g>
+<!-- q2&#45;&gt;loss -->
+<g id="edge9" class="edge">
+<title>q2-&gt;loss</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M451.71,-123.98C451.71,-117 451.71,-108.61 451.71,-99.92"/>
+<polygon fill="black" stroke="black" points="455.21,-99.93 451.71,-89.93 448.21,-99.93 455.21,-99.93"/>
+<text xml:space="preserve" text-anchor="middle" x="440.31" y="-101.81" font-family="Times,serif" font-size="14.00">Q2 полна → потери</text>
+</g>
+<!-- s2 -->
+<g id="node8" class="node">
+<title>s2</title>
+<ellipse fill="none" stroke="black" cx="658.46" cy="-132.01" rx="53.94" ry="53.94"/>
+<text xml:space="preserve" text-anchor="middle" x="658.46" y="-136.21" font-family="Times,serif" font-size="14.00">Прибор P2</text>
+<text xml:space="preserve" text-anchor="middle" x="658.46" y="-119.41" font-family="Times,serif" font-size="14.00">(H_{2,6})</text>
+</g>
+<!-- q2&#45;&gt;s2 -->
+<g id="edge5" class="edge">
+<title>q2-&gt;s2</title>
+<path fill="none" stroke="black" d="M514.6,-137.3C520.85,-136.9 527.11,-136.53 533.12,-136.21 552.5,-135.18 573.6,-134.36 592.82,-133.72"/>
+<polygon fill="black" stroke="black" points="592.8,-137.22 602.68,-133.41 592.58,-130.23 592.8,-137.22"/>
+<text xml:space="preserve" text-anchor="middle" x="559.82" y="-140.41" font-family="Times,serif" font-size="14.00">в сервис</text>
+</g>
+<!-- s2&#45;&gt;sink -->
+<g id="edge7" class="edge">
+<title>s2-&gt;sink</title>
+<path fill="none" stroke="black" d="M606.56,-147.92C581.16,-155.86 550.03,-165.59 522.44,-174.21"/>
+<polygon fill="black" stroke="black" points="521.6,-170.81 513.1,-177.13 523.69,-177.49 521.6,-170.81"/>
+<text xml:space="preserve" text-anchor="middle" x="559.82" y="-173.94" font-family="Times,serif" font-size="14.00">ср. μ=0.2</text>
+</g>
+</g>
+</svg>

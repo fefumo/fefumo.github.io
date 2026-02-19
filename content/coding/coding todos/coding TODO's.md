@@ -1,0 +1,16 @@
+---
+tags:
+  - daily
+  - todos
+---
+- [x] create an obsidian tree with tags to reproduce my contents tg channel
+- [ ] install git-lfs and push ~/cloud to origin on gh
+	- I am not sure if that’s the right way to go. Think of a cloud server for my dad & me? Ask brother as well.
+- [ ] [hades code](https://youtube.com/shorts/KjbiOpm38TY)
+- [ ] Create an app for discrod api that would add & update the status of the currently watching anime automatically, and also with a CLI to specify the website to watch from. 🛫 2025-12-20 ⏳ 2025-12-20
+- [ ] make waybar look more like [this](https://www.youtube.com/watch?v=cZ2YSXSsaic) guy’s ⏳ 2025-12-20 📅 2026-01-05
+- [-] Learn lua so that I can understand how to choose which formatter to use (or, if not implemented, try to contribute to folke’s codebase) 🔁 every month 🛫 2025-12-20 ⏳ 2025-12-20 ❌ 2026-02-18
+- [x] create own lua config for nvim from scratch 🛫 2025-12-30 ⏳ 2025-12-30 ✅ 2026-02-09
+- [-] learn some trees algorithms and try to implement a simple ntfs file system as it uses `B+-` trees. Or smth like ext4 because “Directories use hashed trees (htree), so they stay fast even with many entries”. ⏳ 2026-01-01 ❌ 2026-02-18
+- [-] bug: if the css class in battery waybar is called “warning”, then the brackground is set to orange no matter what, but if you change it, then it correctly parses the thing. try to find the sources or at least make a bugreport 🛫 2025-12-23 📅 2025-12-27 ❌ 2026-02-18
+- [-] Create timer, audio picker and clipboard history thing with rofi or [dmenu](https://youtu.be/4JWeU78A95c?si=Uu2-lhCa9GY01nEn) 🛫 2025-12-22 📅 2026-01-10 ❌ 2026-02-18
